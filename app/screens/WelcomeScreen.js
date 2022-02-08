@@ -58,7 +58,7 @@ function WelcomeScreen(props) {
 
 const styles = StyleSheet.create({
     background: {
-        flex: 1,
+        flex: auto,
         alignItems: "center",
         width: "100%",
         height: "100%"
