@@ -2,12 +2,14 @@ import React from 'react';
 import { View } from 'react-native';
 import { ImageBackground, StyleSheet, Text, Image, Button } from 'react-native-web';
 
+const image = { uri: "https://reactjs.org/logo-og.png" };
+
 function WelcomeScreen(props) {
     return (
         <ImageBackground
-            style={styles.background}
-            blurRadius={6}
-            source={require("../assets/nike.png")}
+            source={image} 
+            resizeMode="cover" 
+            style={styles.image}
         >
             <Text
                 style={styles.titleText}
