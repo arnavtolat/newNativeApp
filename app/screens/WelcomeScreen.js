@@ -7,9 +7,10 @@ const image = { uri: "https://reactjs.org/logo-og.png" };
 function WelcomeScreen(props) {
     return (
         <ImageBackground
-            source={image} 
             resizeMode="cover" 
-            style={styles.image}
+            source={require("../assets/nike.png")}
+            style={styles.background}
+            blurRadius={6}
         >
             <Text
                 style={styles.titleText}
