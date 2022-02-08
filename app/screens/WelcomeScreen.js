@@ -12,7 +12,7 @@ function WelcomeScreen(props) {
             <Text
                 style={styles.titleText}
             >
-                Learning React With Sports
+                React Athlete Homepage
             </Text>
             <View style={styles.activityContainer}>
                 <Image
@@ -23,8 +23,8 @@ function WelcomeScreen(props) {
                     }}
                     style={{margin:10}}
                 />
-                <Text>Ski</Text>
-                <Button title="Details" onPress={() => alert('Kawhi Leonard')} />
+                <Text>Kawhi Leonard</Text>
+                <Button title="Details" onPress={() => alert('NBA Champion SF')} />
 
                 <Image
                     source={{
@@ -36,6 +36,17 @@ function WelcomeScreen(props) {
                 />
                 <Text>Joe Burrow</Text>
                 <Button title="Details" onPress={() => alert('AFC Champion QB')} />
+
+                <Image
+                    source={{
+                        height: 300,
+                        width: 300,
+                        uri: "https://cdn.vox-cdn.com/thumbor/-fKNrc6L91zy05wfq7kXg5KVdCU=/0x761:3648x3992/1200x800/filters:focal(1387x1752:1969x2334)/cdn.vox-cdn.com/uploads/chorus_image/image/58694633/918116466.jpg.0.jpg"
+                    }}
+                    style={{margin:10}}
+                />
+                <Text>Shaun White</Text>
+                <Button title="Details" onPress={() => alert('Olympic Gold Medalist Snowboarder')} />
 
             </View>
         </ImageBackground>
@@ -50,9 +61,9 @@ const styles = StyleSheet.create({
         height: "100%"
     },
     titleText: {
-        fontSize: 27,
+        fontSize: 24,
         fontWeight: "bold",
-        color: "#2c4547",
+        color: "#7966b2",
         position: "absolute",
         top: 35,
     },
