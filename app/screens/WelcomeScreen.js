@@ -61,7 +61,8 @@ const styles = StyleSheet.create({
         flex: 100,
         alignItems: "center",
         width: "100%",
-        height: "100%"
+        height: "100%",
+        backgroundSize: 'cover'
     },
     titleText: {
         fontSize: 24,
